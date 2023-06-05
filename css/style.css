@@ -676,6 +676,10 @@ footer {
   opacity: 1;
 }
 
+.page_menu{
+  margin: 80px 0;
+}
+
 @keyframes muitendixuong {
   from {
     opacity: 1;
