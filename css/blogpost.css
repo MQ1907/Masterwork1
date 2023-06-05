@@ -193,10 +193,11 @@
 }
 
 .prev{
-  padding: 13px 10px;
+  padding: 7px 13px  14px 13px;
+  text-align: center;
   align-items: center;
   border-radius: 5px;
-  border: 1px solid transparent;
+  border: 1px solid #eee;
   background-color: white;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
 }
