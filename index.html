@@ -126,7 +126,6 @@
                     <a class="dropdown-item mb-3" href="./Blogpost.html"
                       >Blog Post</a
                     >
-                    
                   </li>
                   <li>
                     <a class="dropdown-item mb-3" href="#">Landing page</a>
@@ -141,9 +140,10 @@
               </li>
               <!-- phan nay em sua thanh cai bieu tuong search -->
               <div class="search-right mx-2">
-                <a href="#search" class="search-search" title="search">
+                <a href="#search" class="search-search " data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="search">
                   <i class="fa-solid fa-magnifying-glass"> </i>
                 </a>
+
                 <div class="pop-overlay" id="search">
                   <div class="popup">
                     <form action="#" class="search_box d-sm-flex">
@@ -530,7 +530,7 @@
             mattis quam.</span
           >
         </div>
-        <div class="project_box d-flex justify-content-center ">
+        <div class="project_box d-flex justify-content-center">
           <div class="project_content">
             <ul
               class="nav nav-pills justify-content-evenly"
@@ -539,7 +539,7 @@
             >
               <li class="nav-item" role="presentation">
                 <button
-                  class=" pj_text nav-link active"
+                  class="pj_text nav-link active"
                   id="pills-home-tab"
                   data-bs-toggle="pill"
                   data-bs-target="#pills-home"
@@ -553,7 +553,7 @@
               </li>
               <li class="nav-item" role="presentation">
                 <button
-                  class=" pj_text nav-link"
+                  class="pj_text nav-link"
                   id="pills-profile-tab"
                   data-bs-toggle="pill"
                   data-bs-target="#pills-profile"
@@ -565,8 +565,19 @@
                   Project Two
                 </button>
               </li>
-              <li class=" nav-item" role="presentation">
-                <button class="pj_text nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Project Three</button>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="pj_text nav-link"
+                  id="pills-disabled-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-disabled"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-disabled"
+                  aria-selected="false"
+                >
+                  Project Three
+                </button>
               </li>
             </ul>
             <div class="tab-content mt-5" id="pills-tabContent">
@@ -603,68 +614,69 @@
                 </div>
               </div>
               <div
-              class="tab-pane fade"
-              id="pills-profile"
-              role="tabpanel"
-              aria-labelledby="pills-profile-tab"
-              tabindex="0"
-            >
-            <div class="row ">
-              <div class="col-6">
-                <div class="pj_img">
-                  <img src="./img/b5.jpg" alt="" />
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="pj_img">
+                      <img src="./img/b5.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="pj_title">
+                      <h2 class="fw-bold mb-3">
+                        Make website that looks Lorem, <br />
+                        ipsum dolor.
+                      </h2>
+                      <p class="mb-4">
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis <br />
+                        dolores praesentium nulla quibusdam repellendus. <br />
+                        consequatur minus aliquam corrupti blanditiis,
+                        necessitatibus <br />
+                        consectetur modi ipsum natus accusantium sit pariatur.
+                      </p>
+                      <button class="pj_button fw-bold">Know More</button>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="pj_title">
-                  <h2 class="fw-bold mb-3">
-                    Make website that looks Lorem, <br> ipsum dolor.
-                  </h2>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, adipisicing elit repudiandae
-                    perferendis <br />
-                    dolores praesentium nulla quibusdam repellendus. <br />
-                    consequatur minus aliquam corrupti blanditiis,
-                    necessitatibus <br />
-                    consectetur modi ipsum natus accusantium sit pariatur.
-                  </p>
-                  <button class="pj_button fw-bold">Know More</button>
+              <div
+                class="tab-pane fade"
+                id="pills-disabled"
+                role="tabpanel"
+                aria-labelledby="pills-disabled-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="pj_title">
+                      <h2 class="fw-bold mb-3">
+                        Why a visual identity system is <br />
+                        more memorable
+                      </h2>
+                      <p class="mb-4">
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis <br />
+                        dolores praesentium nulla quibusdam repellendus. <br />
+                        consequatur minus aliquam corrupti blanditiis,
+                        necessitatibus <br />
+                        consectetur modi ipsum natus accusantium sit pariatur.
+                      </p>
+                      <button class="pj_button fw-bold">Know More</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="pj_img">
+                      <img src="./img/b6.jpg" alt="" />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="pills-disabled"
-              role="tabpanel"
-              aria-labelledby="pills-disabled-tab"
-              tabindex="0"
-            >
-            <div class="row">
-              <div class="col-6">
-                <div class="pj_title">
-                  <h2 class="fw-bold mb-3">
-                    Why a visual identity system is <br />
-                    more memorable
-                  </h2>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, adipisicing elit repudiandae
-                    perferendis <br />
-                    dolores praesentium nulla quibusdam repellendus. <br />
-                    consequatur minus aliquam corrupti blanditiis,
-                    necessitatibus <br />
-                    consectetur modi ipsum natus accusantium sit pariatur.
-                  </p>
-                  <button class="pj_button fw-bold">Know More</button>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="pj_img">
-                  <img src="./img/b6.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-            </div>
             </div>
           </div>
         </div>
@@ -910,11 +922,37 @@
       </div>
     </footer>
 
-<!-- BACKTOTOP  -->
-      <a href="#" class="back_to_top cd-top text-replace js-cd-top">
-        <i class="fa-solid fa-angle-up"></i>
-      </a>
-
+    <!-- BACKTOTOP  -->
+    <a href="#" class="back_to_top cd-top text-replace js-cd-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content bg-transparent">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="modal-body d-flex">
+            <input type="text" class="form-control" placeholder="Enter Keyword">
+            <button class="btn">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- countup  -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
@@ -976,7 +1014,7 @@
         });
       });
     </script>
-     <script src="./js/util.js"></script>
-     <script src="./js/back_to_top_main.js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/back_to_top_main.js"></script>
   </body>
 </html>

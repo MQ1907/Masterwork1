@@ -139,9 +139,10 @@
               </li>
               <!-- phan nay em sua thanh cai bieu tuong search -->
               <div class="search-right mx-2">
-                <a href="#search" class="search-search" title="search">
+                <a href="#search" class="search-search " data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="search">
                   <i class="fa-solid fa-magnifying-glass"> </i>
                 </a>
+
                 <div class="pop-overlay" id="search">
                   <div class="popup">
                     <form action="#" class="search_box d-sm-flex">
@@ -194,13 +195,13 @@
                   <div class="blog_right">
                     <div class="blog_text">
                       <span>
-                        <a href="" class="">Design</a>
+                        <a href="./readmoredesign.html" class="">Design</a>
                       </span>
                       <h1>
                         <a href="">Corporate, Business & Digital Agency</a>
                       </h1>
                       <p>
-                        <a href="">Read More</a>
+                        <a href="./readmoredesign.html">Read More</a>
                         <i class="fa-solid fa-arrow-right"></i>
                       </p>
                     </div>
@@ -216,13 +217,13 @@
                   <div class="blog_right">
                     <div class="blog_text">
                       <span>
-                        <a href="" class="">Business</a>
+                        <a href="./readmore.html" class="">Business</a>
                       </span>
                       <h1>
                         <a href="">Hello world!</a>
                       </h1>
                       <p>
-                        <a href="">Read More</a>
+                        <a href="./readmore.html">Read More</a>
                         <i class="fa-solid fa-arrow-right"></i>
                       </p>
                     </div>
@@ -238,13 +239,13 @@
                   <div class="blog_right">
                     <div class="blog_text">
                       <span>
-                        <a href="" class="">Industry</a>
+                        <a href="./readmoreindustry.html" class="">Industry</a>
                       </span>
                       <h1>
                         <a href="">Corporate, Business & Digital Agency</a>
                       </h1>
                       <p>
-                        <a href="">Read More</a>
+                        <a href="./readmoreindustry.html">Read More</a>
                         <i class="fa-solid fa-arrow-right"></i>
                       </p>
                     </div>
@@ -293,14 +294,14 @@
             </div>
             <div class="menu_text">
               <span>
-                <a href="" class="">Design</a>
+                <a href="./readmoredesign.html" class="">Design</a>
               </span>
               <h1>
                 <a href="">Corporate, Business & Digital <br> Agency</a>
               </h1>
               <hr>
               <p>
-                <a href="">Read More</a>
+                <a href="./readmoredesign.html">Read More</a>
                 <i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>
@@ -312,14 +313,14 @@
             </div>
             <div class="menu_text">
               <span>
-                <a href="" class="">Programming</a>
+                <a href="./readmoreprogramming.html" class="">Programming</a>
               </span>
               <h1>
                 <a href="">The Best Choice For Your <br> Successful Business!</a>
               </h1>
               <hr>
               <p>
-                <a href="">Read More</a>
+                <a href="./readmoreprogramming.html">Read More</a>
                 <i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>
@@ -331,14 +332,14 @@
             </div>
             <div class="menu_text">
               <span>
-                <a href="" class="">Industry</a>
+                <a href="./readmoreindustry.html" class="">Industry</a>
               </span>
               <h1>
                 <a href="">The Best Choice For Your <br> Successful Business!</a>
               </h1>
               <hr>
               <p>
-                <a href="">Read More</a>
+                <a href="./readmoreindustry.html">Read More</a>
                 <i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>
@@ -471,6 +472,33 @@
     <a href="#" class="back_to_top cd-top text-replace js-cd-top">
       <i class="fa-solid fa-angle-up"></i>
     </a>
+
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content bg-transparent">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="modal-body d-flex">
+            <input type="text" class="form-control" placeholder="Enter Keyword">
+            <button class="btn">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
